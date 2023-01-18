@@ -1,0 +1,216 @@
+    1  git switch main
+    2  git pull origin main
+    3  git branch javascript-custom-methods
+    4  git branch --list
+    5  git switch javascript-custom-methods
+    6  git status
+    7  git add javascript-custom-methods
+    8  git status
+    9  git commit -m "Completed javascript-custom-methods exercise."
+   10  git push origin javascript-custom-methods
+   11  git switch main
+   12  git pull origin main
+   13  git branch javascript-this
+   14  git branch --lost
+   15  git branch --list
+   16  git switch javascript-this
+   17  git status
+   18  git add javascript-this
+   19  git status
+   20  git commit -m 'Completed javascript-this exercise.'
+   21  git push origin javascript-this
+   22  git switch main
+   23  git pull origin main
+   24  git branch javascript-prototypes
+   25  git branch --list
+   26  git switch javascript-prototypes
+   27  git status
+   28  git add javascript-prototypes
+   29  git status
+   30  git commit -m 'Completed javascript-prototypes exercise.'
+   31  git push origin javascript-prototypes
+   32  git switch main
+   33  git pull origin main
+   34  git branch javascript-constructors
+   35  git branch --list
+   36  git switch javascript-constructors
+   37  git status
+   38  git add javascript-constructors
+   39  git statis
+   40  git status
+   41  git commit -m 'Completed javascript constructors exercise.'
+   42  git push origin javascript constructors
+   43  git push origin javascript-constructors
+   44  git switch main
+   45  git status
+   46  git pull origin main
+   47  git status
+   48  git branch javascript-bank
+   49  git branch --list
+   50  git switch javascript-bank
+   51  it status
+   52  git status
+   53  git add javascript-bank
+   54  git status
+   55  git commit -m 'Completed javascript-bank'
+   56  git push origin javascript-bank
+   57  git switch main
+   58  git status
+   59  git add javascript-carousel
+   60  git status
+   61  git commit -m 'Completed javascript-carousel exercise.'
+   62  git push origin javascript-carousel
+   63  git switch main
+   64  git pull origin main
+   65  git branch --list
+   66  git branch http-messages
+   67  git switch http-messages
+   68  http GET https://example.com
+   69  http --verbose https://example.com
+   70  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   71  http --body GET https://example.com > http-messages/index.html
+   72  git status
+   73  git add http-messages
+   74  git status
+   75  git commit -m 'Completed http-messages exercise.'
+   76  git push origin http-messages
+   77  git switch main
+   78  git branch javascript-ajax
+   79  git switch javascript-ajax
+   80  git status
+   81  git add javascript-ajax
+   82  git status
+   83  git commit -m 'Completed javascript-ajax exercise.'
+   84  git push origin javascript-ajax
+   85  git switch main
+   86  git pull origin main
+   87  git status
+   88  git pull origin main
+   89  git branch --list
+   90  git branch es6-const-let
+   91  git branch --list
+   92  git switch es6-const-let
+   93  git status
+   94  git add es6-const-let
+   95  git status
+   96  git commit -m 'Completed es6-const-let exercise.'
+   97  git push origin es6-const-let
+   98  git switch main
+   99  git pull origin main
+  100  git status
+  101  git branch es6-template-literals
+  102  git switch es6-template-literals
+  103  git status
+  104  git add es6-template-literals
+  105  git status
+  106  git commit -m 'Completed es6-template-literals exercise.'
+  107  git push origin es6-template-literals
+  108  git status
+  109  git add es6-template-literals/index.html
+  110  git commit -m 'Fixed missed concatenation.'
+  111  git push origin es6-template-literals
+  112  git status
+  113  git add es6-template-literals
+  114  git status
+  115  git commit -m 'Only converted concatenations.'
+  116  git push origin es6-template-literals
+  117  git switch main
+  118  git pull origin main
+  119  git status
+  120  git pull origin main
+  121  git branch es6-destructuring
+  122  git status
+  123  git switch es6-destructuring
+  124  git status
+  125  git add es6-destructuring
+  126  git status
+  127  git commit -m 'Completed es6-destructuring exercise.'
+  128  git push origin es6-destructuring
+  129  git switch main
+  130  git pull origin main
+  131  git status
+  132  git branch --list
+  133  git branch es6-arrow-functions
+  134  git branch --list
+  135  git switch es6-arrow-functions
+  136  git status
+  137  git add es6-arrow-functions
+  138  git status
+  139  git commit -m 'Completed es6-arrow-functions exercise.'
+  140  git push origin es6-arrow-functions
+  141  git switch main
+  142  git pull origin main
+  143  git branch command-line-basics
+  144  git switch command-line-basics
+  145  cd command-line-basics
+  146  man man
+  147  cd command-line-basics
+  148  man cat
+  149  cd command-line-basics
+  150  man cat
+  151  cat laziness.txt
+  152  cat impatience.txt
+  153  cat hubris.txt
+  154  cat laziness.txt impatience.txt hubris.txt
+  155  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  156  cat three-virtues.txt
+  157  man ls
+  158  man ls
+  159  ls
+  160  ls -a
+  161  ls -F
+  162  ls lfz/staff
+  163  ls lfz-staff/
+  164  ls lfz-staff/ -a
+  165  ls lfz-staff/ -F
+  166  ls -F lzf-staff/
+  167  ls -F lfz-staff/
+  168  man ls
+  169  man ls
+  170  man ls
+  171  ls
+  172  ls -aF
+  173  ls lfz-staff/
+  174  ls -aF lfz-staff/ 
+  175  ls -aF lfz-staff > lfz-staff/contents.txt
+  176  cat lfz-staff/contents.txt
+  177  man pwd
+  178  pwd
+  179  pwd > i-was-here.txt
+  180  ls
+  181  cat i-was-here.txt
+  182  man echo
+  183  echo 'Hello, World!'
+  184  echo 'Hello, World!' > hello.txt
+  185  ls
+  186  cat hello.txt
+  187  man touch
+  188  man touch
+  189  touch tag-youre-it.txt
+  190  touch snoot/boop.txt
+  191  ls snoot/
+  192  man mkdir
+  193  mkdir parent
+  194  ls
+  195  mkdir -p parent/child/grandchild
+  196  touch parent/child/grandchild/.gitkeep
+  197  ls -a
+  198  man mv
+  199  man mv
+  200  mv pokiemans pokemon
+  201  ls
+  202  man rm
+  203  rm lol.txt
+  204  ls
+  205  rm -r kill-me/
+  206  ls
+  207  man cp
+  208  man cp
+  209  cp and-then.txt no-and-then.txt
+  210  ls
+  211  cat and-then.txt
+  212  cat no-and-then.txt
+  213  man-history
+  214  man history
+  215  history
+  216  history > command-history.txt
